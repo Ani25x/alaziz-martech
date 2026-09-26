@@ -5,7 +5,7 @@ The marketing and tech stack I built for **Al Aziz Parfums** ([alazizparfums.com
 ## The starting point
 - 5.0★ from 35 Google reviews offline, **zero online sales**
 - ₹60,000 already spent on an agency (website + ads) with no results
-- 15 hand-blended 60ml eau de parfums, low social following, no customer list
+- 14 hand-blended 60ml eau de parfums plus a discovery set, low social following, no customer list
 - Owner's goal: ₹7 lakh revenue in year one from online
 
 ## What I built
@@ -13,7 +13,7 @@ The marketing and tech stack I built for **Al Aziz Parfums** ([alazizparfums.com
 |---|---|---|
 | Store | WooCommerce store built with Claude as a coding partner; guest checkout, account creation after purchase | live site |
 | Payments | Razorpay (UPI, cards, netbanking, wallets) with webhook-driven order status | [integration checklist](docs/integration-checklist-razorpay.md) |
-| Tracking | GA4 + Meta Pixel with purchase and add-to-cart events; one UTM convention; Conversions API specced | [UTM convention](docs/utm-convention.md), [AAZ-02](docs/tickets.md) |
+| Tracking | GA4 + Meta Pixel + Conversions API, both live (event match quality 6.1/10); one UTM convention | [UTM convention](docs/utm-convention.md) |
 | Product feeds | One product sheet → Google Merchant Center + Meta catalog feeds, with custom labels and pre-upload validation | [`feeds/`](feeds/) |
 | Unit economics | GST-adjusted contribution, break-even ROAS and max CAC per product and per offer | [`economics/`](economics/) |
 | Creative | AI image pipeline (Claude writes prompts, Gemini renders) for the full catalogue, no photoshoot | live site |
